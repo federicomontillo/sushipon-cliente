@@ -1,6 +1,6 @@
 # SushiPon
 
-## Aplicacion Web realizada con React.Js.
+## Aplicacion Web MERN.
 
 Pagina Web con menu autoadministrable para restorantes. 
 
