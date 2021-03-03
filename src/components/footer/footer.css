@@ -1,0 +1,165 @@
+.footer {
+    margin: 0;
+    background-color: #000;
+    height: 100%;
+    box-shadow: 0px -5px 16px 8px rgba(255,255,255,0.19);
+    bottom: 0;
+}
+
+.social {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.social ul {
+    margin: 0px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.social ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 100%;
+    background: #DE0404;
+    box-shadow: 0px 0px 18px 9px rgba(255,255,255,0.32);
+}
+
+.social ul li a {
+    color: #000;
+    font-size: 30px;
+    transition: color 0.4s ease;
+}
+
+.social ul li a:hover {
+    color: #fff;
+}
+
+.social ul li a i {
+    line-height: 50px;
+}
+
+/*--------------------------------------------------------------*/
+
+.footer-menu {
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.footer-nav {
+    width: 100%;
+    height: auto;
+    width: auto;
+    border-right: 2px solid #fff;
+}
+
+.footer-nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-nav ul li {
+    margin: 0px 20px;
+    list-style: none;
+}
+
+.footer-nav ul li a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.4s ease;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    color: #DE0404;
+}
+
+.footer-cantacto {
+    width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.footer-cantacto h5 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-cantacto ul {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-cantacto ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 100%;
+    background: #DE0404;
+    box-shadow: 0px 0px 18px 9px rgba(255,255,255,0.32);
+}
+
+.footer-cantacto ul li a {
+    color: #000;
+    font-size: 30px;
+    transition: color 0.4s ease;
+}
+
+.footer-cantacto ul li a:hover {
+    color: #fff;
+}
+
+.footer-cantacto ul li a i {
+    line-height: 50px;
+}
+
+/*--------------------------------------------------------------*/
+
+.copi-developer {
+    height: 100%;
+    padding: 2px;
+    background-color: #323E40;
+    width: auto;
+    text-align: center;
+}
+
+.copi-developer-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copi-developer h6 {
+    margin-bottom: 0 !important;
+    padding: 5px !important;
+    color: #DE0404;
+    font-size: 15px;
+}
+
+.copi-developer p {
+    color: #fff;
+    padding: 5px !important;
+    margin-bottom: 0 !important;
+    font-size: 15px !important;
+}
+
+.copi-developer a {
+    color: #DE0404;
+    text-decoration: none;
+}
+
+.copi-developer .link-login {
+    color: green;
+}

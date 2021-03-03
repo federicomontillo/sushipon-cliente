@@ -1,0 +1,69 @@
+
+.menu {
+    background-image: url(../../img/Background1ligth.jpg);
+    background-size: cover;
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.menu-edicion {
+    padding: 0px;
+    width: 80%;
+    margin-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 4px solid #000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.menu-edicion form input {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.menu-edicion form select {
+    background-color: white;
+    border-radius: 4px;
+    width: 90%;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+}
+
+
+.menu-edicion h3 {
+    padding: 8px;
+    color: #000;
+}
+
+.menu-edicion input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-menu {
+    padding: 10px;
+    background-color: #69B200 !important;
+    border-radius: 5px;
+    color: black !important;
+    font-weight: 700 !important;
+    transition: background-color 0.5s ease !important;
+    box-shadow: 1px 2px 5px 3px rgba(0,0,0,0.6);
+}
+
+.btn-menu:hover {
+    background-color: #ABDA68 !important;
+}
+
+.mensaje-error {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+}

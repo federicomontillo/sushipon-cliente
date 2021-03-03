@@ -1,0 +1,99 @@
+
+/* ----Menu---- */
+
+.menu-cliente {
+    background-image: url(/src/img/esterillafondo.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.menu-cliente h4 {
+    text-align: center;
+    color: #E10F0F;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ----Selectores Categoria---- */
+
+.botones-categorias {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+@media (min-width: 800px) {
+    .botones-categorias {
+        max-width: 60%;
+        justify-content: space-evenly;
+        overflow: none;
+    }
+}
+
+.boton-categoria {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 8px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+/* ----Listado Platos---- */
+
+.listado-platos {
+    background: rgba(255, 255, 255, 0.5);
+    width: 95%;
+    min-height: 800px;
+    margin: 10px auto;
+    border: 2px solid #732002;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.listado-platos h5 {
+    text-align: center;
+}
+
+.contenedor-platos {
+    width: 98%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.contenedor-platos li {
+    list-style: none;
+}
+
+.plato h3 {
+    color: #E10F0F;
+    font-weight: bolder;
+    font-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plato h3 span {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.plato p {
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+}
+

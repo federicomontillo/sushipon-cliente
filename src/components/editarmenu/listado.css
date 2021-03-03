@@ -1,0 +1,94 @@
+.menu-listado {
+    background: rgba(255, 255, 255, 0.5);
+    width: 95%;
+    margin: 20px auto;
+    border: 4px solid #000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.menu-listado h4  {
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+
+.contenedor-platos {
+    width: 98%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.contenedor-platos li {
+    list-style: none;
+}
+
+/** -------------------PLATOS------------------**/
+
+.plato h3 {
+    font-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plato h3 span {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.acciones {
+    text-align: end;
+}
+
+.acciones button {
+    margin-right: 10px;
+}
+
+/** -------------------BOTONES------------------**/
+
+.btn-acciones {
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-editar {
+    background-color: #69B200;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+    background-color: #ABDA68;
+}
+
+.btn-eliminar {
+    background-color: #E43E3E;
+    transition: background-color 0.3s ease;
+}
+
+.btn-eliminar:hover {
+    background-color: #E17575;
+}
+
+.contenedor-select {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.menu-listado select {
+    background-color: white;
+    border-radius: 4px;
+    width: 60%;
+    padding: 8px;
+    margin: 10px auto;
+    border: none;
+    display: flex;
+}
+

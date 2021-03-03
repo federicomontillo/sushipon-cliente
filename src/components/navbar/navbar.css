@@ -1,0 +1,32 @@
+.nav-bar {
+    font-size: 15px;
+    transition: background-color 0.3s ease-out;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 992px) { 
+    .nav-bar {
+        font-size: 25px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+ }
+
+ .navbar-light .navbar-nav .editar-menu .nav-link {
+     color: #69B200 !important;
+ }
+
+ .navbar-light .navbar-nav .cerrar-sesion .nav-link {
+    color: #E43E3E !important;
+}
+
+.navbar-light .navbar-nav .editar-menu .nav-link:hover {
+    color: #ABDA68 !important;
+}
+
+.navbar-light .navbar-nav .cerrar-sesion .nav-link:hover {
+   color: #E17575 !important;
+}

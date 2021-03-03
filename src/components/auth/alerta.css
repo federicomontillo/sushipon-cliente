@@ -1,0 +1,14 @@
+
+
+
+.alerta-ok {
+    background-color: #66F32D;
+    border-radius: 4px;
+    color: black;
+}
+
+.alerta-error {
+    background-color: #F03737;
+    border-radius: 4px;
+    color: white;
+}

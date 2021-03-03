@@ -1,0 +1,90 @@
+.imgcarousel {
+    max-width: 100%;
+    max-height: 800px;
+}
+
+.contenedorcarousel {
+    width: 70%;
+    height: 80%;
+    align-items: center;
+}
+
+.img-fondo {
+    height: 600px; 
+    background-image: url(/src/img/sushicarru1.jpg); 
+    background-size: cover;
+    background-position: left;
+}
+
+.img-fondo2 {
+    height: 600px; 
+    background-image: url(/src/img/sushi2.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedorcarousel h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(129, 9, 9, 0.5);
+}
+
+.contenedorcarousel h3 {
+    color: #000;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(50, 62, 64, 1);
+}
+
+@media (max-width: 700px) { 
+    .contenedorcarousel h3 {
+        font-size: 25px;
+    }
+    .contenedorcarousel h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .contenedorcarousel h3 {
+        font-size: 20px;
+    }
+
+    .contenedorcarousel h4 {
+        font-size: 15px;
+    }
+    .imgcarousel {
+        width: 400px;
+        min-height: 400px;
+    }
+
+    .boton-menu {
+        margin-bottom: 10px !important;
+     }
+ }
+
+ .boton-menu {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+     color: #fff !important;
+     border: none !important;
+     border-radius: 5px !important;
+     padding: 10px !important;
+     font-size: 25px !important;
+ }
+
+ .boton-menu:hover {
+     background-color: rgba(129, 9, 9, 0.9) !important;
+ }
+
+ .destacado {
+     text-align: left;
+     padding: 20px;
+ }
+
+ .destacado p {
+     color: #E10F0F;
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     text-shadow: 2px 2px 4px rgba(50, 62, 64, 0.5);
+ }
